@@ -8,6 +8,7 @@ Delete your posts and reposts on Bluesky.
     pip install -r requirements.txt
 ```
 2. Edit config.json
+
 **Use App Password for safety.**
 ```json
    {

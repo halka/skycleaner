@@ -68,7 +68,6 @@ for collection, posts in records.items():
         # remove charactors on `created_at` behined of `Z`
         z_index_in_created_at = post.value.created_at.index('Z')
         post_created_at = datetime.fromisoformat(post.value.created_at[:z_index_in_created_at+1])
-        # print(post_created_at)
         if post_created_at <= hold_datetime:
             uri = AtUri.from_str(post.uri)
             deletes.append({

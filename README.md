@@ -13,7 +13,7 @@ Delete your posts and reposts on Bluesky.
 ```json
    {
     "username": "your_handle.bsky.social",
-    "password": "ISSUED APP PASSWWORD",
+    "password": "ISSUED APP PASSWORD",
     "days_to_keep": {
       "posts": 20,
       "reposts": 20 
